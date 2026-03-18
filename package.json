@@ -24,18 +24,20 @@
   ],
   "author": "Siray AI",
   "license": "MIT",
-  "n8n": {
-    "n8nNodesApiVersion": 1,
-    "credentials": [
-      "dist/credentials/SirayApi.credentials.js"
-    ],
-    "nodes": [
-      "dist/nodes/SirayChat/SirayChat.node.js",
-      "dist/nodes/SirayImage/SirayImage.node.js",
-      "dist/nodes/SirayVideo/SirayVideo.node.js",
-      "dist/nodes/SirayVideo/SirayEmbedding.node.js"
-    ]
-  },
+    "n8n": {
+      "n8nNodesApiVersion": 1,
+      "credentials": [
+        "dist/credentials/SirayApi.credentials.js"
+      ],
+      "nodes": [
+        "dist/nodes/SirayChat/SirayChat.node.js",
+        "dist/nodes/SirayImage/SirayImage.node.js",
+        "dist/nodes/SirayVideo/SirayVideo.node.js",
+        "dist/nodes/SirayVideo/SirayEmbedding.node.js",
+        "dist/nodes/SirayImageTrigger/SirayImageTrigger.node.js",
+        "dist/nodes/SirayVideoTrigger/SirayVideoTrigger.node.js"
+      ]
+    },
   "devDependencies": {
     "@n8n/node-cli": "*",
     "eslint": "9.32.0",
