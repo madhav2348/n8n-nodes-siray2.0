@@ -76,6 +76,7 @@ export const sirayChatOperation: INodeProperties[] = [
           loadOptionsMethod: 'getModels',
           loadOptionsDependsOn: ['generationType'], 
         },
+        default:''
   },
   {
     displayName: "frequency_penalty",

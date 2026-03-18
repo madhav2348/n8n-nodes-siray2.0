@@ -62,7 +62,7 @@ export const sirayVideoOperation: INodeProperties[] = [
           loadOptionsDependsOn: ['generationType'], 
         },
     description: "Model name to use for the request",
-
+    default:''
   },
   {
     displayName: "Image",

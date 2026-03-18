@@ -80,6 +80,7 @@ export const sirayEmbeddingOperation: INodeProperties[] = [
           loadOptionsDependsOn: ['generationType'], 
         },
     description: "Model name to use for the request",
+    default:''
   },
  
 ];

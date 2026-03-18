@@ -51,6 +51,7 @@ export const sirayImageOperation: INodeProperties[] = [
           loadOptionsDependsOn: ['generationType'], 
         },
     description: "Model name to use for the request",
+    default:''
 
   },
  
