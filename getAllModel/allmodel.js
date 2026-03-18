@@ -1,3 +1,6 @@
+// TODO: Remove if require including whole 'getAllModel' Directory
+//       and githubworkflow 'update-model.yml'
+
 const fs = require("node:fs/promises");
 const path = require("node:path");
 

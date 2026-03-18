@@ -23,7 +23,7 @@
     "workflow"
   ],
   "author": "Siray AI",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
