@@ -33,7 +33,7 @@ export const methods = {
 					Accept: 'application/json',
 				},
 			});
-      // model is an json object, for noe set as 'any'
+      // model is an json object, for now set as 'any'
 			const allmodels: SirayModelType[] = response.data.map((model:any) => ({
 				id: model.id,
 				name: model.name,
