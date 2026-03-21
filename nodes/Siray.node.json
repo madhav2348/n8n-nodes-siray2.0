@@ -6,12 +6,12 @@
 	"resources": {
 		"credentialDocumentation": [
 			{
-				"url": "https://docs.siray.ai/"
+				"url": "https://github.com/siray-ai-platform/n8n-nodes-siray/blob/main/docs/siray-ai-credentials.md"
 			}
 		],
 		"primaryDocumentation": [
 			{
-				"url": "https://docs.siray.ai/"
+				"url": "https://github.com/siray-ai-platform/n8n-nodes-siray/blob/main/docs/"
 			}
 		]
 	}
